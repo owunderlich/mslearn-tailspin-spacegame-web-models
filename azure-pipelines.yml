@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    feedPublish: '$(System.TeamProject)/New.SpaceGame.Web'
+    feedPublish: '$(System.TeamProject)/NewFeed.SpaceGame.Web'
     allowPackageConflicts: true
   condition: succeeded()
