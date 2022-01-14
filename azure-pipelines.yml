@@ -1,5 +1,4 @@
-pool:
-  vmImage: 'ubuntu-20.04'
+pool: 'New Pool'
 
 variables:
   buildConfiguration: 'Release'
